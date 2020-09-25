@@ -1,0 +1,2142 @@
+{
+  "contracts/interfaces/IAaveDistributionManager.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/interfaces/IAaveDistributionManager.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/interfaces/IAaveIncentivesController.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/interfaces/IAaveIncentivesController.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/interfaces/IAToken.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/interfaces/IAToken.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/interfaces/IERC20.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/interfaces/IERC20.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/interfaces/IERC20Detailed.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/interfaces/IERC20Detailed.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/interfaces/IStakedAave.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/interfaces/IStakedAave.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/interfaces/ITransferHook.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/interfaces/ITransferHook.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/lib/Address.sol": {
+    "l": {"30": 23, "31": 23, "33": 23, "36": 23, "56": 0, "59": 0, "60": 0},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/Address.sol",
+    "s": {"1": 23, "2": 23, "3": 23, "4": 0, "5": 0, "6": 0},
+    "b": {"1": [0, 0], "2": [0, 0]},
+    "f": {"1": 23, "2": 0},
+    "fnMap": {
+      "1": {
+        "name": "isContract",
+        "line": 26,
+        "loc": {"start": {"line": 26, "column": 4}, "end": {"line": 37, "column": 4}}
+      },
+      "2": {
+        "name": "sendValue",
+        "line": 55,
+        "loc": {"start": {"line": 55, "column": 4}, "end": {"line": 61, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 30, "column": 8}, "end": {"line": 30, "column": 24}},
+      "2": {"start": {"line": 31, "column": 8}, "end": {"line": 31, "column": 96}},
+      "3": {"start": {"line": 36, "column": 8}, "end": {"line": 36, "column": 59}},
+      "4": {"start": {"line": 56, "column": 8}, "end": {"line": 56, "column": 80}},
+      "5": {"start": {"line": 59, "column": 8}, "end": {"line": 59, "column": 60}},
+      "6": {"start": {"line": 60, "column": 8}, "end": {"line": 60, "column": 85}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 56,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 56, "column": 8}, "end": {"line": 56, "column": 8}},
+          {"start": {"line": 56, "column": 8}, "end": {"line": 56, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 60,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 60, "column": 8}, "end": {"line": 60, "column": 8}},
+          {"start": {"line": 60, "column": 8}, "end": {"line": 60, "column": 8}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/BaseAdminUpgradeabilityProxy.sol": {
+    "l": {
+      "38": 0,
+      "39": 0,
+      "41": 0,
+      "49": 0,
+      "56": 0,
+      "65": 0,
+      "66": 0,
+      "67": 0,
+      "76": 0,
+      "93": 0,
+      "94": 0,
+      "95": 0,
+      "102": 433,
+      "103": 433,
+      "113": 2,
+      "115": 2,
+      "124": 433,
+      "125": 433
+    },
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/BaseAdminUpgradeabilityProxy.sol",
+    "s": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 433,
+      "13": 2,
+      "14": 433,
+      "15": 433
+    },
+    "b": {"1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [433, 0]},
+    "f": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 433, "8": 2, "9": 433},
+    "fnMap": {
+      "1": {
+        "name": "ifAdmin",
+        "line": 37,
+        "loc": {"start": {"line": 37, "column": 4}, "end": {"line": 43, "column": 4}}
+      },
+      "2": {
+        "name": "admin",
+        "line": 48,
+        "loc": {"start": {"line": 48, "column": 4}, "end": {"line": 50, "column": 4}}
+      },
+      "3": {
+        "name": "implementation",
+        "line": 55,
+        "loc": {"start": {"line": 55, "column": 4}, "end": {"line": 57, "column": 4}}
+      },
+      "4": {
+        "name": "changeAdmin",
+        "line": 64,
+        "loc": {"start": {"line": 64, "column": 4}, "end": {"line": 68, "column": 4}}
+      },
+      "5": {
+        "name": "upgradeTo",
+        "line": 75,
+        "loc": {"start": {"line": 75, "column": 4}, "end": {"line": 77, "column": 4}}
+      },
+      "6": {
+        "name": "upgradeToAndCall",
+        "line": 91,
+        "loc": {"start": {"line": 88, "column": 4}, "end": {"line": 96, "column": 4}}
+      },
+      "7": {
+        "name": "_admin",
+        "line": 101,
+        "loc": {"start": {"line": 101, "column": 4}, "end": {"line": 106, "column": 4}}
+      },
+      "8": {
+        "name": "_setAdmin",
+        "line": 112,
+        "loc": {"start": {"line": 112, "column": 4}, "end": {"line": 118, "column": 4}}
+      },
+      "9": {
+        "name": "_willFallback",
+        "line": 123,
+        "loc": {"start": {"line": 123, "column": 4}, "end": {"line": 126, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 38, "column": 8}, "end": {"line": 38, "column": 1442}},
+      "2": {"start": {"line": 41, "column": 12}, "end": {"line": 41, "column": 22}},
+      "3": {"start": {"line": 49, "column": 8}, "end": {"line": 49, "column": 23}},
+      "4": {"start": {"line": 56, "column": 8}, "end": {"line": 56, "column": 32}},
+      "5": {"start": {"line": 65, "column": 8}, "end": {"line": 65, "column": 96}},
+      "6": {"start": {"line": 66, "column": 8}, "end": {"line": 66, "column": 45}},
+      "7": {"start": {"line": 67, "column": 8}, "end": {"line": 67, "column": 26}},
+      "8": {"start": {"line": 76, "column": 8}, "end": {"line": 76, "column": 36}},
+      "9": {"start": {"line": 93, "column": 8}, "end": {"line": 93, "column": 36}},
+      "10": {"start": {"line": 94, "column": 8}, "end": {"line": 94, "column": 63}},
+      "11": {"start": {"line": 95, "column": 8}, "end": {"line": 95, "column": 23}},
+      "12": {"start": {"line": 102, "column": 8}, "end": {"line": 102, "column": 33}},
+      "13": {"start": {"line": 113, "column": 8}, "end": {"line": 113, "column": 33}},
+      "14": {"start": {"line": 124, "column": 8}, "end": {"line": 124, "column": 92}},
+      "15": {"start": {"line": 125, "column": 8}, "end": {"line": 125, "column": 28}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 38,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 38, "column": 8}, "end": {"line": 38, "column": 8}},
+          {"start": {"line": 38, "column": 8}, "end": {"line": 38, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 65,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 65, "column": 8}, "end": {"line": 65, "column": 8}},
+          {"start": {"line": 65, "column": 8}, "end": {"line": 65, "column": 8}}
+        ]
+      },
+      "3": {
+        "line": 95,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 95, "column": 8}, "end": {"line": 95, "column": 8}},
+          {"start": {"line": 95, "column": 8}, "end": {"line": 95, "column": 8}}
+        ]
+      },
+      "4": {
+        "line": 124,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 124, "column": 8}, "end": {"line": 124, "column": 8}},
+          {"start": {"line": 124, "column": 8}, "end": {"line": 124, "column": 8}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/BaseUpgradeabilityProxy.sol": {
+    "l": {"34": 437, "35": 437, "45": 0, "46": 0, "54": 2, "59": 2, "61": 2},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/BaseUpgradeabilityProxy.sol",
+    "s": {"1": 437, "2": 0, "3": 0, "4": 2, "5": 2},
+    "b": {"1": [2, 0]},
+    "f": {"1": 437, "2": 0, "3": 2},
+    "fnMap": {
+      "1": {
+        "name": "_implementation",
+        "line": 33,
+        "loc": {"start": {"line": 33, "column": 4}, "end": {"line": 38, "column": 4}}
+      },
+      "2": {
+        "name": "_upgradeTo",
+        "line": 44,
+        "loc": {"start": {"line": 44, "column": 4}, "end": {"line": 47, "column": 4}}
+      },
+      "3": {
+        "name": "_setImplementation",
+        "line": 53,
+        "loc": {"start": {"line": 53, "column": 4}, "end": {"line": 64, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 34, "column": 8}, "end": {"line": 34, "column": 42}},
+      "2": {"start": {"line": 45, "column": 8}, "end": {"line": 45, "column": 44}},
+      "3": {"start": {"line": 46, "column": 8}, "end": {"line": 46, "column": 40}},
+      "4": {"start": {"line": 54, "column": 8}, "end": {"line": 54, "column": 1849}},
+      "5": {"start": {"line": 59, "column": 8}, "end": {"line": 59, "column": 42}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 54,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 54, "column": 8}, "end": {"line": 54, "column": 8}},
+          {"start": {"line": 54, "column": 8}, "end": {"line": 54, "column": 8}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/Context.sol": {
+    "l": {"18": 69, "22": 0, "23": 0},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/Context.sol",
+    "s": {"1": 69, "2": 0},
+    "b": {},
+    "f": {"1": 69, "2": 0},
+    "fnMap": {
+      "1": {
+        "name": "_msgSender",
+        "line": 17,
+        "loc": {"start": {"line": 17, "column": 4}, "end": {"line": 19, "column": 4}}
+      },
+      "2": {
+        "name": "_msgData",
+        "line": 21,
+        "loc": {"start": {"line": 21, "column": 4}, "end": {"line": 24, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 18, "column": 8}, "end": {"line": 18, "column": 25}},
+      "2": {"start": {"line": 23, "column": 8}, "end": {"line": 23, "column": 23}}
+    },
+    "branchMap": {}
+  },
+  "contracts/lib/DistributionTypes.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/DistributionTypes.sol",
+    "s": {},
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/lib/ERC20.sol": {
+    "l": {
+      "29": 6,
+      "30": 6,
+      "31": 6,
+      "38": 1,
+      "45": 1,
+      "52": 1,
+      "59": 99,
+      "66": 208,
+      "76": 11,
+      "77": 11,
+      "93": 1,
+      "102": 14,
+      "103": 14,
+      "118": 22,
+      "119": 22,
+      "124": 22,
+      "134": 0,
+      "135": 0,
+      "149": 0,
+      "157": 0,
+      "165": 33,
+      "166": 33,
+      "168": 33,
+      "170": 33,
+      "171": 33,
+      "172": 33,
+      "176": 22,
+      "178": 22,
+      "180": 22,
+      "181": 22,
+      "182": 22,
+      "186": 4,
+      "188": 4,
+      "190": 4,
+      "191": 4,
+      "192": 4,
+      "200": 36,
+      "201": 36,
+      "203": 36,
+      "204": 36,
+      "208": 1,
+      "212": 1,
+      "216": 1
+    },
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/ERC20.sol",
+    "s": {
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 99,
+      "8": 208,
+      "9": 11,
+      "10": 11,
+      "11": 1,
+      "12": 14,
+      "13": 14,
+      "14": 22,
+      "15": 22,
+      "16": 22,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 33,
+      "22": 33,
+      "23": 33,
+      "24": 33,
+      "25": 33,
+      "26": 33,
+      "27": 22,
+      "28": 22,
+      "29": 22,
+      "30": 22,
+      "31": 22,
+      "32": 4,
+      "33": 4,
+      "34": 4,
+      "35": 4,
+      "36": 4,
+      "37": 36,
+      "38": 36,
+      "39": 36,
+      "40": 36,
+      "41": 1,
+      "42": 1,
+      "43": 1
+    },
+    "b": {"1": [33, 0], "2": [33, 0], "3": [22, 0], "4": [4, 0], "5": [36, 0], "6": [36, 0]},
+    "f": {
+      "1": 6,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 99,
+      "6": 208,
+      "7": 11,
+      "8": 1,
+      "9": 14,
+      "10": 22,
+      "11": 0,
+      "12": 0,
+      "13": 33,
+      "14": 22,
+      "15": 4,
+      "16": 36,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 33
+    },
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 24,
+        "loc": {"start": {"line": 24, "column": 2}, "end": {"line": 32, "column": 2}}
+      },
+      "2": {
+        "name": "name",
+        "line": 37,
+        "loc": {"start": {"line": 37, "column": 2}, "end": {"line": 39, "column": 2}}
+      },
+      "3": {
+        "name": "symbol",
+        "line": 44,
+        "loc": {"start": {"line": 44, "column": 2}, "end": {"line": 46, "column": 2}}
+      },
+      "4": {
+        "name": "decimals",
+        "line": 51,
+        "loc": {"start": {"line": 51, "column": 2}, "end": {"line": 53, "column": 2}}
+      },
+      "5": {
+        "name": "totalSupply",
+        "line": 58,
+        "loc": {"start": {"line": 58, "column": 2}, "end": {"line": 60, "column": 2}}
+      },
+      "6": {
+        "name": "balanceOf",
+        "line": 65,
+        "loc": {"start": {"line": 65, "column": 2}, "end": {"line": 67, "column": 2}}
+      },
+      "7": {
+        "name": "transfer",
+        "line": 75,
+        "loc": {"start": {"line": 75, "column": 2}, "end": {"line": 78, "column": 2}}
+      },
+      "8": {
+        "name": "allowance",
+        "line": 86,
+        "loc": {"start": {"line": 86, "column": 2}, "end": {"line": 94, "column": 2}}
+      },
+      "9": {
+        "name": "approve",
+        "line": 101,
+        "loc": {"start": {"line": 101, "column": 2}, "end": {"line": 104, "column": 2}}
+      },
+      "10": {
+        "name": "transferFrom",
+        "line": 113,
+        "loc": {"start": {"line": 113, "column": 2}, "end": {"line": 125, "column": 2}}
+      },
+      "11": {
+        "name": "increaseAllowance",
+        "line": 133,
+        "loc": {"start": {"line": 133, "column": 2}, "end": {"line": 136, "column": 2}}
+      },
+      "12": {
+        "name": "decreaseAllowance",
+        "line": 144,
+        "loc": {"start": {"line": 144, "column": 2}, "end": {"line": 158, "column": 2}}
+      },
+      "13": {
+        "name": "_transfer",
+        "line": 160,
+        "loc": {"start": {"line": 160, "column": 2}, "end": {"line": 173, "column": 2}}
+      },
+      "14": {
+        "name": "_mint",
+        "line": 175,
+        "loc": {"start": {"line": 175, "column": 2}, "end": {"line": 183, "column": 2}}
+      },
+      "15": {
+        "name": "_burn",
+        "line": 185,
+        "loc": {"start": {"line": 185, "column": 2}, "end": {"line": 193, "column": 2}}
+      },
+      "16": {
+        "name": "_approve",
+        "line": 195,
+        "loc": {"start": {"line": 195, "column": 2}, "end": {"line": 205, "column": 2}}
+      },
+      "17": {
+        "name": "_setName",
+        "line": 207,
+        "loc": {"start": {"line": 207, "column": 2}, "end": {"line": 209, "column": 2}}
+      },
+      "18": {
+        "name": "_setSymbol",
+        "line": 211,
+        "loc": {"start": {"line": 211, "column": 2}, "end": {"line": 213, "column": 2}}
+      },
+      "19": {
+        "name": "_setDecimals",
+        "line": 215,
+        "loc": {"start": {"line": 215, "column": 2}, "end": {"line": 217, "column": 2}}
+      },
+      "20": {
+        "name": "_beforeTokenTransfer",
+        "line": 219,
+        "loc": {"start": {"line": 219, "column": 2}, "end": {"line": 223, "column": 22}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 29, "column": 4}, "end": {"line": 29, "column": 15}},
+      "2": {"start": {"line": 30, "column": 4}, "end": {"line": 30, "column": 19}},
+      "3": {"start": {"line": 31, "column": 4}, "end": {"line": 31, "column": 23}},
+      "4": {"start": {"line": 38, "column": 4}, "end": {"line": 38, "column": 16}},
+      "5": {"start": {"line": 45, "column": 4}, "end": {"line": 45, "column": 18}},
+      "6": {"start": {"line": 52, "column": 4}, "end": {"line": 52, "column": 20}},
+      "7": {"start": {"line": 59, "column": 4}, "end": {"line": 59, "column": 23}},
+      "8": {"start": {"line": 66, "column": 4}, "end": {"line": 66, "column": 29}},
+      "9": {"start": {"line": 76, "column": 4}, "end": {"line": 76, "column": 45}},
+      "10": {"start": {"line": 77, "column": 4}, "end": {"line": 77, "column": 15}},
+      "11": {"start": {"line": 93, "column": 4}, "end": {"line": 93, "column": 38}},
+      "12": {"start": {"line": 102, "column": 4}, "end": {"line": 102, "column": 42}},
+      "13": {"start": {"line": 103, "column": 4}, "end": {"line": 103, "column": 15}},
+      "14": {"start": {"line": 118, "column": 4}, "end": {"line": 118, "column": 39}},
+      "15": {"start": {"line": 119, "column": 4}, "end": {"line": 119, "column": 3226}},
+      "16": {"start": {"line": 124, "column": 4}, "end": {"line": 124, "column": 15}},
+      "17": {"start": {"line": 134, "column": 4}, "end": {"line": 134, "column": 86}},
+      "18": {"start": {"line": 135, "column": 4}, "end": {"line": 135, "column": 15}},
+      "19": {"start": {"line": 149, "column": 4}, "end": {"line": 149, "column": 4207}},
+      "20": {"start": {"line": 157, "column": 4}, "end": {"line": 157, "column": 15}},
+      "21": {"start": {"line": 165, "column": 4}, "end": {"line": 165, "column": 73}},
+      "22": {"start": {"line": 166, "column": 4}, "end": {"line": 166, "column": 74}},
+      "23": {"start": {"line": 168, "column": 4}, "end": {"line": 168, "column": 50}},
+      "24": {"start": {"line": 170, "column": 4}, "end": {"line": 170, "column": 94}},
+      "25": {"start": {"line": 171, "column": 4}, "end": {"line": 171, "column": 58}},
+      "26": {"start": {"line": 172, "column": 4}, "end": {"line": 172, "column": 44}},
+      "27": {"start": {"line": 176, "column": 4}, "end": {"line": 176, "column": 68}},
+      "28": {"start": {"line": 178, "column": 4}, "end": {"line": 178, "column": 52}},
+      "29": {"start": {"line": 180, "column": 4}, "end": {"line": 180, "column": 42}},
+      "30": {"start": {"line": 181, "column": 4}, "end": {"line": 181, "column": 54}},
+      "31": {"start": {"line": 182, "column": 4}, "end": {"line": 182, "column": 46}},
+      "32": {"start": {"line": 186, "column": 4}, "end": {"line": 186, "column": 70}},
+      "33": {"start": {"line": 188, "column": 4}, "end": {"line": 188, "column": 52}},
+      "34": {"start": {"line": 190, "column": 4}, "end": {"line": 190, "column": 92}},
+      "35": {"start": {"line": 191, "column": 4}, "end": {"line": 191, "column": 42}},
+      "36": {"start": {"line": 192, "column": 4}, "end": {"line": 192, "column": 46}},
+      "37": {"start": {"line": 200, "column": 4}, "end": {"line": 200, "column": 71}},
+      "38": {"start": {"line": 201, "column": 4}, "end": {"line": 201, "column": 71}},
+      "39": {"start": {"line": 203, "column": 4}, "end": {"line": 203, "column": 39}},
+      "40": {"start": {"line": 204, "column": 4}, "end": {"line": 204, "column": 41}},
+      "41": {"start": {"line": 208, "column": 4}, "end": {"line": 208, "column": 18}},
+      "42": {"start": {"line": 212, "column": 4}, "end": {"line": 212, "column": 22}},
+      "43": {"start": {"line": 216, "column": 4}, "end": {"line": 216, "column": 26}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 165,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 165, "column": 4}, "end": {"line": 165, "column": 4}},
+          {"start": {"line": 165, "column": 4}, "end": {"line": 165, "column": 4}}
+        ]
+      },
+      "2": {
+        "line": 166,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 166, "column": 4}, "end": {"line": 166, "column": 4}},
+          {"start": {"line": 166, "column": 4}, "end": {"line": 166, "column": 4}}
+        ]
+      },
+      "3": {
+        "line": 176,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 176, "column": 4}, "end": {"line": 176, "column": 4}},
+          {"start": {"line": 176, "column": 4}, "end": {"line": 176, "column": 4}}
+        ]
+      },
+      "4": {
+        "line": 186,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 186, "column": 4}, "end": {"line": 186, "column": 4}},
+          {"start": {"line": 186, "column": 4}, "end": {"line": 186, "column": 4}}
+        ]
+      },
+      "5": {
+        "line": 200,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 200, "column": 4}, "end": {"line": 200, "column": 4}},
+          {"start": {"line": 200, "column": 4}, "end": {"line": 200, "column": 4}}
+        ]
+      },
+      "6": {
+        "line": 201,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 201, "column": 4}, "end": {"line": 201, "column": 4}},
+          {"start": {"line": 201, "column": 4}, "end": {"line": 201, "column": 4}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/ERC20WithSnapshot.sol": {
+    "l": {
+      "32": 1,
+      "42": 31,
+      "44": 31,
+      "45": 31,
+      "48": 31,
+      "49": 0,
+      "51": 31,
+      "52": 31,
+      "55": 31,
+      "68": 26,
+      "69": 1,
+      "72": 25,
+      "73": 10,
+      "74": 10,
+      "76": 25,
+      "77": 21,
+      "78": 21,
+      "82": 25,
+      "83": 25,
+      "84": 25
+    },
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/ERC20WithSnapshot.sol",
+    "s": {
+      "1": 1,
+      "2": 31,
+      "3": 31,
+      "4": 31,
+      "5": 31,
+      "6": 0,
+      "7": 31,
+      "8": 31,
+      "9": 31,
+      "10": 26,
+      "11": 1,
+      "12": 25,
+      "13": 10,
+      "14": 10,
+      "15": 25,
+      "16": 21,
+      "17": 21,
+      "18": 25,
+      "19": 25,
+      "20": 25
+    },
+    "b": {"1": [0, 31], "2": [1, 25], "3": [10, 15], "4": [21, 4], "5": [25, 0]},
+    "f": {"1": 3, "2": 1, "3": 31, "4": 26},
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 29,
+        "loc": {"start": {"line": 29, "column": 4}, "end": {"line": 29, "column": 112}}
+      },
+      "2": {
+        "name": "_setAaveGovernance",
+        "line": 31,
+        "loc": {"start": {"line": 31, "column": 4}, "end": {"line": 33, "column": 4}}
+      },
+      "3": {
+        "name": "_writeSnapshot",
+        "line": 41,
+        "loc": {"start": {"line": 41, "column": 4}, "end": {"line": 56, "column": 4}}
+      },
+      "4": {
+        "name": "_beforeTokenTransfer",
+        "line": 67,
+        "loc": {"start": {"line": 67, "column": 4}, "end": {"line": 86, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 32, "column": 8}, "end": {"line": 32, "column": 39}},
+      "2": {"start": {"line": 42, "column": 8}, "end": {"line": 42, "column": 52}},
+      "3": {"start": {"line": 44, "column": 8}, "end": {"line": 44, "column": 63}},
+      "4": {"start": {"line": 45, "column": 8}, "end": {"line": 45, "column": 80}},
+      "5": {"start": {"line": 48, "column": 8}, "end": {"line": 48, "column": 1904}},
+      "6": {"start": {"line": 49, "column": 12}, "end": {"line": 49, "column": 72}},
+      "7": {"start": {"line": 51, "column": 12}, "end": {"line": 51, "column": 83}},
+      "8": {"start": {"line": 52, "column": 12}, "end": {"line": 52, "column": 65}},
+      "9": {"start": {"line": 55, "column": 8}, "end": {"line": 55, "column": 52}},
+      "10": {"start": {"line": 68, "column": 8}, "end": {"line": 68, "column": 2797}},
+      "11": {"start": {"line": 69, "column": 12}, "end": {"line": 69, "column": 18}},
+      "12": {"start": {"line": 72, "column": 8}, "end": {"line": 72, "column": 2854}},
+      "13": {"start": {"line": 73, "column": 12}, "end": {"line": 73, "column": 49}},
+      "14": {"start": {"line": 74, "column": 12}, "end": {"line": 74, "column": 87}},
+      "15": {"start": {"line": 76, "column": 8}, "end": {"line": 76, "column": 3039}},
+      "16": {"start": {"line": 77, "column": 12}, "end": {"line": 77, "column": 45}},
+      "17": {"start": {"line": 78, "column": 12}, "end": {"line": 78, "column": 81}},
+      "18": {"start": {"line": 82, "column": 8}, "end": {"line": 82, "column": 54}},
+      "19": {"start": {"line": 83, "column": 8}, "end": {"line": 83, "column": 3346}},
+      "20": {"start": {"line": 84, "column": 12}, "end": {"line": 84, "column": 54}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 48,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 48, "column": 8}, "end": {"line": 48, "column": 8}},
+          {"start": {"line": 48, "column": 8}, "end": {"line": 48, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 68,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 68, "column": 8}, "end": {"line": 68, "column": 8}},
+          {"start": {"line": 68, "column": 8}, "end": {"line": 68, "column": 8}}
+        ]
+      },
+      "3": {
+        "line": 72,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 72, "column": 8}, "end": {"line": 72, "column": 8}},
+          {"start": {"line": 72, "column": 8}, "end": {"line": 72, "column": 8}}
+        ]
+      },
+      "4": {
+        "line": 76,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 76, "column": 8}, "end": {"line": 76, "column": 8}},
+          {"start": {"line": 76, "column": 8}, "end": {"line": 76, "column": 8}}
+        ]
+      },
+      "5": {
+        "line": 83,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 83, "column": 8}, "end": {"line": 83, "column": 8}},
+          {"start": {"line": 83, "column": 8}, "end": {"line": 83, "column": 8}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/InitializableAdminUpgradeabilityProxy.sol": {
+    "l": {"31": 2, "32": 2, "33": 2, "34": 2, "41": 433},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/InitializableAdminUpgradeabilityProxy.sol",
+    "s": {"1": 2, "2": 2, "3": 2, "4": 2, "5": 433},
+    "b": {"1": [2, 0], "2": [2, 0]},
+    "f": {"1": 2, "2": 433},
+    "fnMap": {
+      "1": {
+        "name": "initialize",
+        "line": 26,
+        "loc": {"start": {"line": 26, "column": 4}, "end": {"line": 35, "column": 4}}
+      },
+      "2": {
+        "name": "_willFallback",
+        "line": 40,
+        "loc": {"start": {"line": 40, "column": 4}, "end": {"line": 42, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 31, "column": 8}, "end": {"line": 31, "column": 47}},
+      "2": {"start": {"line": 32, "column": 8}, "end": {"line": 32, "column": 65}},
+      "3": {"start": {"line": 33, "column": 8}, "end": {"line": 33, "column": 83}},
+      "4": {"start": {"line": 34, "column": 8}, "end": {"line": 34, "column": 24}},
+      "5": {"start": {"line": 41, "column": 8}, "end": {"line": 41, "column": 51}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 31,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 31, "column": 8}, "end": {"line": 31, "column": 8}},
+          {"start": {"line": 31, "column": 8}, "end": {"line": 31, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 33,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 33, "column": 8}, "end": {"line": 33, "column": 8}},
+          {"start": {"line": 33, "column": 8}, "end": {"line": 33, "column": 8}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/InitializableUpgradeabilityProxy.sol": {
+    "l": {"22": 2, "23": 2, "26": 2, "27": 2, "28": 2, "29": 2},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/InitializableUpgradeabilityProxy.sol",
+    "s": {"1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2},
+    "b": {"1": [2, 0], "2": [2, 0], "3": [2, 0], "4": [2, 0]},
+    "f": {"1": 2},
+    "fnMap": {
+      "1": {
+        "name": "initialize",
+        "line": 21,
+        "loc": {"start": {"line": 21, "column": 4}, "end": {"line": 31, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 22, "column": 8}, "end": {"line": 22, "column": 47}},
+      "2": {"start": {"line": 23, "column": 8}, "end": {"line": 23, "column": 1121}},
+      "3": {"start": {"line": 26, "column": 8}, "end": {"line": 26, "column": 33}},
+      "4": {"start": {"line": 27, "column": 8}, "end": {"line": 27, "column": 1283}},
+      "5": {"start": {"line": 28, "column": 12}, "end": {"line": 28, "column": 57}},
+      "6": {"start": {"line": 29, "column": 12}, "end": {"line": 29, "column": 27}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 22,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 22, "column": 8}, "end": {"line": 22, "column": 8}},
+          {"start": {"line": 22, "column": 8}, "end": {"line": 22, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 23,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 23, "column": 8}, "end": {"line": 23, "column": 8}},
+          {"start": {"line": 23, "column": 8}, "end": {"line": 23, "column": 8}}
+        ]
+      },
+      "3": {
+        "line": 27,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 27, "column": 8}, "end": {"line": 27, "column": 8}},
+          {"start": {"line": 27, "column": 8}, "end": {"line": 27, "column": 8}}
+        ]
+      },
+      "4": {
+        "line": 29,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 29, "column": 12}, "end": {"line": 29, "column": 12}},
+          {"start": {"line": 29, "column": 12}, "end": {"line": 29, "column": 12}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/Proxy.sol": {
+    "l": {"18": 433, "33": 433, "69": 433, "70": 433},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/Proxy.sol",
+    "s": {"1": 433, "2": 433, "3": 433},
+    "b": {},
+    "f": {"1": 433, "2": 433, "3": 433, "4": 433},
+    "fnMap": {
+      "1": {
+        "name": null,
+        "line": 17,
+        "loc": {"start": {"line": 17, "column": 4}, "end": {"line": 19, "column": 4}}
+      },
+      "2": {
+        "name": "_delegate",
+        "line": 32,
+        "loc": {"start": {"line": 32, "column": 4}, "end": {"line": 55, "column": 4}}
+      },
+      "3": {
+        "name": "_willFallback",
+        "line": 62,
+        "loc": {"start": {"line": 62, "column": 4}, "end": {"line": 62, "column": 47}}
+      },
+      "4": {
+        "name": "_fallback",
+        "line": 68,
+        "loc": {"start": {"line": 68, "column": 4}, "end": {"line": 71, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 18, "column": 8}, "end": {"line": 18, "column": 18}},
+      "2": {"start": {"line": 69, "column": 8}, "end": {"line": 69, "column": 22}},
+      "3": {"start": {"line": 70, "column": 8}, "end": {"line": 70, "column": 35}}
+    },
+    "branchMap": {}
+  },
+  "contracts/lib/SafeERC20.sol": {
+    "l": {"24": 4, "28": 17, "32": 0, "35": 0, "39": 21, "42": 21, "43": 21, "45": 21, "47": 21},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/SafeERC20.sol",
+    "s": {"1": 4, "2": 17, "3": 0, "4": 0, "5": 21, "6": 21, "7": 21, "8": 21, "9": 21},
+    "b": {"1": [0, 0], "2": [21, 0], "3": [21, 0], "4": [21, 0], "5": [21, 0]},
+    "f": {"1": 4, "2": 17, "3": 0, "4": 21},
+    "fnMap": {
+      "1": {
+        "name": "safeTransfer",
+        "line": 23,
+        "loc": {"start": {"line": 23, "column": 4}, "end": {"line": 25, "column": 4}}
+      },
+      "2": {
+        "name": "safeTransferFrom",
+        "line": 27,
+        "loc": {"start": {"line": 27, "column": 4}, "end": {"line": 29, "column": 4}}
+      },
+      "3": {
+        "name": "safeApprove",
+        "line": 31,
+        "loc": {"start": {"line": 31, "column": 4}, "end": {"line": 36, "column": 4}}
+      },
+      "4": {
+        "name": "callOptionalReturn",
+        "line": 38,
+        "loc": {"start": {"line": 38, "column": 4}, "end": {"line": 49, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 24, "column": 8}, "end": {"line": 24, "column": 92}},
+      "2": {"start": {"line": 28, "column": 8}, "end": {"line": 28, "column": 102}},
+      "3": {"start": {"line": 32, "column": 8}, "end": {"line": 32, "column": 1280}},
+      "4": {"start": {"line": 35, "column": 8}, "end": {"line": 35, "column": 96}},
+      "5": {"start": {"line": 39, "column": 8}, "end": {"line": 39, "column": 78}},
+      "6": {"start": {"line": 42, "column": 8}, "end": {"line": 42, "column": 75}},
+      "7": {"start": {"line": 43, "column": 8}, "end": {"line": 43, "column": 59}},
+      "8": {"start": {"line": 45, "column": 8}, "end": {"line": 45, "column": 1906}},
+      "9": {"start": {"line": 47, "column": 12}, "end": {"line": 47, "column": 96}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 32,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 32, "column": 8}, "end": {"line": 32, "column": 8}},
+          {"start": {"line": 32, "column": 8}, "end": {"line": 32, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 39,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 39, "column": 8}, "end": {"line": 39, "column": 8}},
+          {"start": {"line": 39, "column": 8}, "end": {"line": 39, "column": 8}}
+        ]
+      },
+      "3": {
+        "line": 43,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 43, "column": 8}, "end": {"line": 43, "column": 8}},
+          {"start": {"line": 43, "column": 8}, "end": {"line": 43, "column": 8}}
+        ]
+      },
+      "4": {
+        "line": 45,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 45, "column": 8}, "end": {"line": 45, "column": 8}},
+          {"start": {"line": 45, "column": 8}, "end": {"line": 45, "column": 8}}
+        ]
+      },
+      "5": {
+        "line": 47,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 47, "column": 12}, "end": {"line": 47, "column": 12}},
+          {"start": {"line": 47, "column": 12}, "end": {"line": 47, "column": 12}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/SafeMath.sol": {
+    "l": {
+      "29": 336,
+      "30": 336,
+      "32": 336,
+      "45": 144,
+      "62": 206,
+      "63": 205,
+      "65": 205,
+      "81": 117,
+      "82": 17,
+      "85": 100,
+      "86": 100,
+      "88": 100,
+      "103": 97,
+      "123": 97,
+      "124": 97,
+      "127": 97,
+      "142": 0,
+      "161": 0,
+      "162": 0
+    },
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/SafeMath.sol",
+    "s": {
+      "1": 336,
+      "2": 336,
+      "3": 336,
+      "4": 144,
+      "5": 206,
+      "6": 205,
+      "7": 205,
+      "8": 117,
+      "9": 17,
+      "10": 100,
+      "11": 100,
+      "12": 100,
+      "13": 97,
+      "14": 97,
+      "15": 97,
+      "16": 97,
+      "17": 0,
+      "18": 0,
+      "19": 0
+    },
+    "b": {"1": [336, 0], "2": [205, 1], "3": [17, 100], "4": [100, 0], "5": [97, 0], "6": [0, 0]},
+    "f": {"1": 336, "2": 144, "3": 206, "4": 117, "5": 97, "6": 97, "7": 0, "8": 0},
+    "fnMap": {
+      "1": {
+        "name": "add",
+        "line": 28,
+        "loc": {"start": {"line": 28, "column": 4}, "end": {"line": 33, "column": 4}}
+      },
+      "2": {
+        "name": "sub",
+        "line": 44,
+        "loc": {"start": {"line": 44, "column": 4}, "end": {"line": 46, "column": 4}}
+      },
+      "3": {
+        "name": "sub",
+        "line": 57,
+        "loc": {"start": {"line": 57, "column": 4}, "end": {"line": 66, "column": 4}}
+      },
+      "4": {
+        "name": "mul",
+        "line": 77,
+        "loc": {"start": {"line": 77, "column": 4}, "end": {"line": 89, "column": 4}}
+      },
+      "5": {
+        "name": "div",
+        "line": 102,
+        "loc": {"start": {"line": 102, "column": 4}, "end": {"line": 104, "column": 4}}
+      },
+      "6": {
+        "name": "div",
+        "line": 117,
+        "loc": {"start": {"line": 117, "column": 4}, "end": {"line": 128, "column": 4}}
+      },
+      "7": {
+        "name": "mod",
+        "line": 141,
+        "loc": {"start": {"line": 141, "column": 4}, "end": {"line": 143, "column": 4}}
+      },
+      "8": {
+        "name": "mod",
+        "line": 156,
+        "loc": {"start": {"line": 156, "column": 4}, "end": {"line": 163, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 29, "column": 8}, "end": {"line": 29, "column": 25}},
+      "2": {"start": {"line": 30, "column": 8}, "end": {"line": 30, "column": 53}},
+      "3": {"start": {"line": 32, "column": 8}, "end": {"line": 32, "column": 16}},
+      "4": {"start": {"line": 45, "column": 8}, "end": {"line": 45, "column": 58}},
+      "5": {"start": {"line": 62, "column": 8}, "end": {"line": 62, "column": 36}},
+      "6": {"start": {"line": 63, "column": 8}, "end": {"line": 63, "column": 25}},
+      "7": {"start": {"line": 65, "column": 8}, "end": {"line": 65, "column": 16}},
+      "8": {"start": {"line": 81, "column": 8}, "end": {"line": 81, "column": 2553}},
+      "9": {"start": {"line": 82, "column": 12}, "end": {"line": 82, "column": 20}},
+      "10": {"start": {"line": 85, "column": 8}, "end": {"line": 85, "column": 25}},
+      "11": {"start": {"line": 86, "column": 8}, "end": {"line": 86, "column": 63}},
+      "12": {"start": {"line": 88, "column": 8}, "end": {"line": 88, "column": 16}},
+      "13": {"start": {"line": 103, "column": 8}, "end": {"line": 103, "column": 54}},
+      "14": {"start": {"line": 123, "column": 8}, "end": {"line": 123, "column": 35}},
+      "15": {"start": {"line": 124, "column": 8}, "end": {"line": 124, "column": 25}},
+      "16": {"start": {"line": 127, "column": 8}, "end": {"line": 127, "column": 16}},
+      "17": {"start": {"line": 142, "column": 8}, "end": {"line": 142, "column": 52}},
+      "18": {"start": {"line": 161, "column": 8}, "end": {"line": 161, "column": 36}},
+      "19": {"start": {"line": 162, "column": 8}, "end": {"line": 162, "column": 20}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 30,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 30, "column": 8}, "end": {"line": 30, "column": 8}},
+          {"start": {"line": 30, "column": 8}, "end": {"line": 30, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 62,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 62, "column": 8}, "end": {"line": 62, "column": 8}},
+          {"start": {"line": 62, "column": 8}, "end": {"line": 62, "column": 8}}
+        ]
+      },
+      "3": {
+        "line": 81,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 81, "column": 8}, "end": {"line": 81, "column": 8}},
+          {"start": {"line": 81, "column": 8}, "end": {"line": 81, "column": 8}}
+        ]
+      },
+      "4": {
+        "line": 86,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 86, "column": 8}, "end": {"line": 86, "column": 8}},
+          {"start": {"line": 86, "column": 8}, "end": {"line": 86, "column": 8}}
+        ]
+      },
+      "5": {
+        "line": 123,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 123, "column": 8}, "end": {"line": 123, "column": 8}},
+          {"start": {"line": 123, "column": 8}, "end": {"line": 123, "column": 8}}
+        ]
+      },
+      "6": {
+        "line": 161,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 161, "column": 8}, "end": {"line": 161, "column": 8}},
+          {"start": {"line": 161, "column": 8}, "end": {"line": 161, "column": 8}}
+        ]
+      }
+    }
+  },
+  "contracts/lib/UpgradeabilityProxy.sol": {
+    "l": {"22": 0, "25": 0, "26": 0, "27": 0, "28": 0},
+    "path": "/home/andyk/projects/aave-stake/contracts/lib/UpgradeabilityProxy.sol",
+    "s": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0},
+    "b": {"1": [0, 0], "2": [0, 0], "3": [0, 0]},
+    "f": {"1": 0},
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 21,
+        "loc": {"start": {"line": 21, "column": 4}, "end": {"line": 30, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 22, "column": 8}, "end": {"line": 22, "column": 1041}},
+      "2": {"start": {"line": 25, "column": 8}, "end": {"line": 25, "column": 33}},
+      "3": {"start": {"line": 26, "column": 8}, "end": {"line": 26, "column": 1203}},
+      "4": {"start": {"line": 27, "column": 12}, "end": {"line": 27, "column": 57}},
+      "5": {"start": {"line": 28, "column": 12}, "end": {"line": 28, "column": 27}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 22,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 22, "column": 8}, "end": {"line": 22, "column": 8}},
+          {"start": {"line": 22, "column": 8}, "end": {"line": 22, "column": 8}}
+        ]
+      },
+      "2": {
+        "line": 26,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 26, "column": 8}, "end": {"line": 26, "column": 8}},
+          {"start": {"line": 26, "column": 8}, "end": {"line": 26, "column": 8}}
+        ]
+      },
+      "3": {
+        "line": 28,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 28, "column": 12}, "end": {"line": 28, "column": 12}},
+          {"start": {"line": 28, "column": 12}, "end": {"line": 28, "column": 12}}
+        ]
+      }
+    }
+  },
+  "contracts/stake/AaveDistributionManager.sol": {
+    "l": {
+      "37": 9,
+      "38": 9,
+      "46": 37,
+      "48": 36,
+      "49": 38,
+      "51": 38,
+      "57": 38,
+      "59": 38,
+      "78": 88,
+      "79": 88,
+      "81": 88,
+      "82": 39,
+      "85": 49,
+      "92": 49,
+      "93": 15,
+      "94": 15,
+      "97": 49,
+      "99": 49,
+      "116": 50,
+      "117": 50,
+      "118": 50,
+      "120": 50,
+      "122": 50,
+      "123": 18,
+      "124": 13,
+      "127": 18,
+      "128": 18,
+      "131": 50,
+      "144": 7,
+      "146": 7,
+      "147": 7,
+      "157": 7,
+      "171": 61,
+      "173": 61,
+      "174": 61,
+      "175": 61,
+      "182": 61,
+      "186": 61,
+      "201": 74,
+      "218": 110,
+      "224": 92,
+      "227": 18,
+      "230": 18,
+      "231": 18,
+      "244": 87
+    },
+    "path": "/home/andyk/projects/aave-stake/contracts/stake/AaveDistributionManager.sol",
+    "s": {
+      "1": 9,
+      "2": 9,
+      "3": 37,
+      "4": 36,
+      "5": 38,
+      "6": 38,
+      "7": 38,
+      "8": 38,
+      "9": 88,
+      "10": 88,
+      "11": 88,
+      "12": 39,
+      "13": 49,
+      "14": 49,
+      "15": 15,
+      "16": 15,
+      "17": 49,
+      "18": 49,
+      "19": 50,
+      "20": 50,
+      "21": 50,
+      "22": 50,
+      "23": 50,
+      "24": 18,
+      "25": 13,
+      "26": 18,
+      "27": 18,
+      "28": 50,
+      "29": 7,
+      "30": 7,
+      "31": 7,
+      "32": 7,
+      "33": 61,
+      "34": 61,
+      "35": 61,
+      "36": 61,
+      "37": 61,
+      "38": 61,
+      "39": 74,
+      "40": 110,
+      "41": 92,
+      "42": 18,
+      "43": 18,
+      "44": 18,
+      "45": 87
+    },
+    "b": {"1": [36, 1], "2": [39, 49], "3": [15, 34], "4": [18, 32], "5": [13, 5], "6": [92, 18]},
+    "f": {"1": 9, "2": 37, "3": 88, "4": 50, "5": 7, "6": 61, "7": 74, "8": 110, "9": 87},
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 36,
+        "loc": {"start": {"line": 36, "column": 2}, "end": {"line": 39, "column": 2}}
+      },
+      "2": {
+        "name": "configureAssets",
+        "line": 45,
+        "loc": {"start": {"line": 45, "column": 2}, "end": {"line": 64, "column": 2}}
+      },
+      "3": {
+        "name": "_updateAssetStateInternal",
+        "line": 73,
+        "loc": {"start": {"line": 73, "column": 2}, "end": {"line": 100, "column": 2}}
+      },
+      "4": {
+        "name": "_updateUserAssetInternal",
+        "line": 110,
+        "loc": {"start": {"line": 110, "column": 2}, "end": {"line": 132, "column": 2}}
+      },
+      "5": {
+        "name": "_claimRewards",
+        "line": 140,
+        "loc": {"start": {"line": 140, "column": 2}, "end": {"line": 158, "column": 2}}
+      },
+      "6": {
+        "name": "_getUnclaimedRewards",
+        "line": 166,
+        "loc": {"start": {"line": 166, "column": 2}, "end": {"line": 187, "column": 2}}
+      },
+      "7": {
+        "name": "_getRewards",
+        "line": 196,
+        "loc": {"start": {"line": 196, "column": 2}, "end": {"line": 202, "column": 2}}
+      },
+      "8": {
+        "name": "_getAssetIndex",
+        "line": 212,
+        "loc": {"start": {"line": 212, "column": 2}, "end": {"line": 235, "column": 2}}
+      },
+      "9": {
+        "name": "getUserAssetData",
+        "line": 243,
+        "loc": {"start": {"line": 243, "column": 2}, "end": {"line": 245, "column": 2}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 37, "column": 4}, "end": {"line": 37, "column": 63}},
+      "2": {"start": {"line": 38, "column": 4}, "end": {"line": 38, "column": 37}},
+      "3": {"start": {"line": 46, "column": 4}, "end": {"line": 46, "column": 67}},
+      "4": {"start": {"line": 48, "column": 4}, "end": {"line": 48, "column": 1597}},
+      "5": {"start": {"line": 49, "column": 6}, "end": {"line": 49, "column": 82}},
+      "6": {"start": {"line": 51, "column": 6}, "end": {"line": 51, "column": 1747}},
+      "7": {"start": {"line": 57, "column": 6}, "end": {"line": 57, "column": 75}},
+      "8": {"start": {"line": 59, "column": 6}, "end": {"line": 59, "column": 1978}},
+      "9": {"start": {"line": 78, "column": 4}, "end": {"line": 78, "column": 40}},
+      "10": {"start": {"line": 79, "column": 4}, "end": {"line": 79, "column": 65}},
+      "11": {"start": {"line": 81, "column": 4}, "end": {"line": 81, "column": 2793}},
+      "12": {"start": {"line": 82, "column": 6}, "end": {"line": 82, "column": 21}},
+      "13": {"start": {"line": 85, "column": 4}, "end": {"line": 85, "column": 2874}},
+      "14": {"start": {"line": 92, "column": 4}, "end": {"line": 92, "column": 3018}},
+      "15": {"start": {"line": 93, "column": 6}, "end": {"line": 93, "column": 33}},
+      "16": {"start": {"line": 94, "column": 6}, "end": {"line": 94, "column": 55}},
+      "17": {"start": {"line": 97, "column": 4}, "end": {"line": 97, "column": 61}},
+      "18": {"start": {"line": 99, "column": 4}, "end": {"line": 99, "column": 19}},
+      "19": {"start": {"line": 116, "column": 4}, "end": {"line": 116, "column": 47}},
+      "20": {"start": {"line": 117, "column": 4}, "end": {"line": 117, "column": 45}},
+      "21": {"start": {"line": 118, "column": 4}, "end": {"line": 118, "column": 30}},
+      "22": {"start": {"line": 120, "column": 4}, "end": {"line": 120, "column": 79}},
+      "23": {"start": {"line": 122, "column": 4}, "end": {"line": 122, "column": 4010}},
+      "24": {"start": {"line": 123, "column": 6}, "end": {"line": 123, "column": 4047}},
+      "25": {"start": {"line": 124, "column": 8}, "end": {"line": 124, "column": 70}},
+      "26": {"start": {"line": 127, "column": 6}, "end": {"line": 127, "column": 37}},
+      "27": {"start": {"line": 128, "column": 6}, "end": {"line": 128, "column": 50}},
+      "28": {"start": {"line": 131, "column": 4}, "end": {"line": 131, "column": 25}},
+      "29": {"start": {"line": 144, "column": 4}, "end": {"line": 144, "column": 30}},
+      "30": {"start": {"line": 146, "column": 4}, "end": {"line": 146, "column": 4748}},
+      "31": {"start": {"line": 147, "column": 6}, "end": {"line": 147, "column": 4802}},
+      "32": {"start": {"line": 157, "column": 4}, "end": {"line": 157, "column": 25}},
+      "33": {"start": {"line": 171, "column": 4}, "end": {"line": 171, "column": 30}},
+      "34": {"start": {"line": 173, "column": 4}, "end": {"line": 173, "column": 5498}},
+      "35": {"start": {"line": 174, "column": 6}, "end": {"line": 174, "column": 71}},
+      "36": {"start": {"line": 175, "column": 6}, "end": {"line": 175, "column": 5626}},
+      "37": {"start": {"line": 182, "column": 6}, "end": {"line": 182, "column": 5815}},
+      "38": {"start": {"line": 186, "column": 4}, "end": {"line": 186, "column": 25}},
+      "39": {"start": {"line": 201, "column": 4}, "end": {"line": 201, "column": 92}},
+      "40": {"start": {"line": 218, "column": 4}, "end": {"line": 218, "column": 7195}},
+      "41": {"start": {"line": 224, "column": 6}, "end": {"line": 224, "column": 25}},
+      "42": {"start": {"line": 227, "column": 4}, "end": {"line": 227, "column": 7418}},
+      "43": {"start": {"line": 230, "column": 4}, "end": {"line": 230, "column": 65}},
+      "44": {"start": {"line": 231, "column": 4}, "end": {"line": 231, "column": 7585}},
+      "45": {"start": {"line": 244, "column": 4}, "end": {"line": 244, "column": 36}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 46,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 46, "column": 4}, "end": {"line": 46, "column": 4}},
+          {"start": {"line": 46, "column": 4}, "end": {"line": 46, "column": 4}}
+        ]
+      },
+      "2": {
+        "line": 81,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 81, "column": 4}, "end": {"line": 81, "column": 4}},
+          {"start": {"line": 81, "column": 4}, "end": {"line": 81, "column": 4}}
+        ]
+      },
+      "3": {
+        "line": 92,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 92, "column": 4}, "end": {"line": 92, "column": 4}},
+          {"start": {"line": 92, "column": 4}, "end": {"line": 92, "column": 4}}
+        ]
+      },
+      "4": {
+        "line": 122,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 122, "column": 4}, "end": {"line": 122, "column": 4}},
+          {"start": {"line": 122, "column": 4}, "end": {"line": 122, "column": 4}}
+        ]
+      },
+      "5": {
+        "line": 123,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 123, "column": 6}, "end": {"line": 123, "column": 6}},
+          {"start": {"line": 123, "column": 6}, "end": {"line": 123, "column": 6}}
+        ]
+      },
+      "6": {
+        "line": 218,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 218, "column": 4}, "end": {"line": 218, "column": 4}},
+          {"start": {"line": 218, "column": 4}, "end": {"line": 218, "column": 4}}
+        ]
+      }
+    }
+  },
+  "contracts/stake/AaveIncentivesController.sol": {
+    "l": {
+      "45": 6,
+      "46": 6,
+      "47": 6,
+      "48": 6,
+      "56": 1,
+      "70": 8,
+      "71": 8,
+      "72": 3,
+      "73": 3,
+      "88": 3,
+      "90": 3,
+      "93": 3,
+      "94": 3,
+      "95": 3,
+      "98": 3,
+      "99": 3,
+      "115": 8,
+      "116": 1,
+      "118": 7,
+      "119": 7,
+      "121": 7,
+      "124": 7,
+      "125": 7,
+      "126": 7,
+      "130": 7,
+      "131": 7,
+      "132": 5,
+      "133": 5,
+      "136": 7,
+      "137": 2,
+      "140": 5,
+      "141": 5,
+      "143": 5,
+      "144": 3,
+      "145": 3,
+      "146": 3,
+      "148": 2,
+      "150": 5,
+      "152": 5,
+      "161": 29,
+      "168": 2
+    },
+    "path": "/home/andyk/projects/aave-stake/contracts/stake/AaveIncentivesController.sol",
+    "s": {
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 1,
+      "6": 8,
+      "7": 8,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 8,
+      "18": 1,
+      "19": 7,
+      "20": 7,
+      "21": 7,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 7,
+      "27": 5,
+      "28": 5,
+      "29": 7,
+      "30": 2,
+      "31": 5,
+      "32": 5,
+      "33": 5,
+      "34": 3,
+      "35": 3,
+      "36": 3,
+      "37": 2,
+      "38": 5,
+      "39": 5,
+      "40": 29,
+      "41": 2
+    },
+    "b": {"1": [3, 5], "2": [1, 7], "3": [5, 2], "4": [2, 5], "5": [3, 2]},
+    "f": {"1": 6, "2": 1, "3": 8, "4": 3, "5": 8, "6": 29, "7": 2},
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 44,
+        "loc": {"start": {"line": 37, "column": 2}, "end": {"line": 49, "column": 2}}
+      },
+      "2": {
+        "name": "initialize",
+        "line": 54,
+        "loc": {"start": {"line": 54, "column": 2}, "end": {"line": 57, "column": 2}}
+      },
+      "3": {
+        "name": "handleAction",
+        "line": 65,
+        "loc": {"start": {"line": 65, "column": 2}, "end": {"line": 75, "column": 2}}
+      },
+      "4": {
+        "name": "getRewardsBalance",
+        "line": 82,
+        "loc": {"start": {"line": 82, "column": 2}, "end": {"line": 100, "column": 2}}
+      },
+      "5": {
+        "name": "claimRewards",
+        "line": 109,
+        "loc": {"start": {"line": 109, "column": 2}, "end": {"line": 153, "column": 2}}
+      },
+      "6": {
+        "name": "getUserUnclaimedRewards",
+        "line": 160,
+        "loc": {"start": {"line": 160, "column": 2}, "end": {"line": 162, "column": 2}}
+      },
+      "7": {
+        "name": "getRevision",
+        "line": 167,
+        "loc": {"start": {"line": 167, "column": 2}, "end": {"line": 169, "column": 2}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 45, "column": 4}, "end": {"line": 45, "column": 29}},
+      "2": {"start": {"line": 46, "column": 4}, "end": {"line": 46, "column": 31}},
+      "3": {"start": {"line": 47, "column": 4}, "end": {"line": 47, "column": 12}},
+      "4": {"start": {"line": 48, "column": 4}, "end": {"line": 48, "column": 36}},
+      "5": {"start": {"line": 56, "column": 4}, "end": {"line": 56, "column": 56}},
+      "6": {"start": {"line": 70, "column": 4}, "end": {"line": 70, "column": 97}},
+      "7": {"start": {"line": 71, "column": 4}, "end": {"line": 71, "column": 2388}},
+      "8": {"start": {"line": 72, "column": 6}, "end": {"line": 72, "column": 84}},
+      "9": {"start": {"line": 73, "column": 6}, "end": {"line": 73, "column": 47}},
+      "10": {"start": {"line": 88, "column": 4}, "end": {"line": 88, "column": 59}},
+      "11": {"start": {"line": 90, "column": 4}, "end": {"line": 90, "column": 2924}},
+      "12": {"start": {"line": 93, "column": 4}, "end": {"line": 93, "column": 3048}},
+      "13": {"start": {"line": 94, "column": 6}, "end": {"line": 94, "column": 45}},
+      "14": {"start": {"line": 95, "column": 6}, "end": {"line": 95, "column": 3187}},
+      "15": {"start": {"line": 98, "column": 4}, "end": {"line": 98, "column": 81}},
+      "16": {"start": {"line": 99, "column": 4}, "end": {"line": 99, "column": 27}},
+      "17": {"start": {"line": 115, "column": 4}, "end": {"line": 115, "column": 3914}},
+      "18": {"start": {"line": 116, "column": 6}, "end": {"line": 116, "column": 14}},
+      "19": {"start": {"line": 118, "column": 4}, "end": {"line": 118, "column": 29}},
+      "20": {"start": {"line": 119, "column": 4}, "end": {"line": 119, "column": 59}},
+      "21": {"start": {"line": 121, "column": 4}, "end": {"line": 121, "column": 4053}},
+      "22": {"start": {"line": 124, "column": 4}, "end": {"line": 124, "column": 4177}},
+      "23": {"start": {"line": 125, "column": 6}, "end": {"line": 125, "column": 45}},
+      "24": {"start": {"line": 126, "column": 6}, "end": {"line": 126, "column": 4316}},
+      "25": {"start": {"line": 130, "column": 4}, "end": {"line": 130, "column": 59}},
+      "26": {"start": {"line": 131, "column": 4}, "end": {"line": 131, "column": 4470}},
+      "27": {"start": {"line": 132, "column": 6}, "end": {"line": 132, "column": 60}},
+      "28": {"start": {"line": 133, "column": 6}, "end": {"line": 133, "column": 47}},
+      "29": {"start": {"line": 136, "column": 4}, "end": {"line": 136, "column": 4620}},
+      "30": {"start": {"line": 137, "column": 6}, "end": {"line": 137, "column": 14}},
+      "31": {"start": {"line": 140, "column": 4}, "end": {"line": 140, "column": 81}},
+      "32": {"start": {"line": 141, "column": 4}, "end": {"line": 141, "column": 66}},
+      "33": {"start": {"line": 143, "column": 4}, "end": {"line": 143, "column": 4862}},
+      "34": {"start": {"line": 144, "column": 6}, "end": {"line": 144, "column": 84}},
+      "35": {"start": {"line": 145, "column": 6}, "end": {"line": 145, "column": 75}},
+      "36": {"start": {"line": 146, "column": 6}, "end": {"line": 146, "column": 33}},
+      "37": {"start": {"line": 148, "column": 6}, "end": {"line": 148, "column": 64}},
+      "38": {"start": {"line": 150, "column": 4}, "end": {"line": 150, "column": 54}},
+      "39": {"start": {"line": 152, "column": 4}, "end": {"line": 152, "column": 24}},
+      "40": {"start": {"line": 161, "column": 4}, "end": {"line": 161, "column": 40}},
+      "41": {"start": {"line": 168, "column": 4}, "end": {"line": 168, "column": 19}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 71,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 71, "column": 4}, "end": {"line": 71, "column": 4}},
+          {"start": {"line": 71, "column": 4}, "end": {"line": 71, "column": 4}}
+        ]
+      },
+      "2": {
+        "line": 115,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 115, "column": 4}, "end": {"line": 115, "column": 4}},
+          {"start": {"line": 115, "column": 4}, "end": {"line": 115, "column": 4}}
+        ]
+      },
+      "3": {
+        "line": 131,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 131, "column": 4}, "end": {"line": 131, "column": 4}},
+          {"start": {"line": 131, "column": 4}, "end": {"line": 131, "column": 4}}
+        ]
+      },
+      "4": {
+        "line": 136,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 136, "column": 4}, "end": {"line": 136, "column": 4}},
+          {"start": {"line": 136, "column": 4}, "end": {"line": 136, "column": 4}}
+        ]
+      },
+      "5": {
+        "line": 143,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 143, "column": 4}, "end": {"line": 143, "column": 4}},
+          {"start": {"line": 143, "column": 4}, "end": {"line": 143, "column": 4}}
+        ]
+      }
+    }
+  },
+  "contracts/stake/StakedAave.sol": {
+    "l": {},
+    "path": "/home/andyk/projects/aave-stake/contracts/stake/StakedAave.sol",
+    "s": {},
+    "b": {},
+    "f": {"1": 3},
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 36,
+        "loc": {"start": {"line": 18, "column": 2}, "end": {"line": 36, "column": 15}}
+      }
+    },
+    "statementMap": {},
+    "branchMap": {}
+  },
+  "contracts/stake/StakedToken.sol": {
+    "l": {
+      "57": 3,
+      "58": 3,
+      "59": 3,
+      "60": 3,
+      "61": 3,
+      "68": 1,
+      "69": 1,
+      "70": 1,
+      "71": 1,
+      "75": 16,
+      "76": 15,
+      "78": 15,
+      "84": 15,
+      "85": 2,
+      "86": 2,
+      "89": 15,
+      "91": 15,
+      "92": 15,
+      "94": 15,
+      "103": 9,
+      "105": 8,
+      "106": 8,
+      "110": 6,
+      "114": 4,
+      "116": 4,
+      "118": 4,
+      "120": 4,
+      "122": 4,
+      "123": 2,
+      "126": 4,
+      "128": 4,
+      "136": 11,
+      "138": 11,
+      "147": 3,
+      "152": 3,
+      "154": 3,
+      "156": 2,
+      "158": 2,
+      "172": 7,
+      "174": 7,
+      "177": 7,
+      "178": 6,
+      "179": 6,
+      "181": 6,
+      "182": 6,
+      "184": 6,
+      "185": 1,
+      "189": 7,
+      "204": 20,
+      "210": 20,
+      "212": 20,
+      "213": 3,
+      "214": 2,
+      "216": 3,
+      "219": 20,
+      "242": 21,
+      "243": 21,
+      "244": 17,
+      "247": 4,
+      "251": 4,
+      "252": 1,
+      "254": 3,
+      "258": 3,
+      "259": 1,
+      "261": 2,
+      "267": 3,
+      "269": 3,
+      "279": 58,
+      "281": 58,
+      "286": 58,
+      "294": 1
+    },
+    "path": "/home/andyk/projects/aave-stake/contracts/stake/StakedToken.sol",
+    "s": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 16,
+      "11": 15,
+      "12": 15,
+      "13": 15,
+      "14": 2,
+      "15": 2,
+      "16": 15,
+      "17": 15,
+      "18": 15,
+      "19": 15,
+      "20": 9,
+      "21": 8,
+      "22": 8,
+      "23": 6,
+      "24": 4,
+      "25": 4,
+      "26": 4,
+      "27": 4,
+      "28": 4,
+      "29": 2,
+      "30": 4,
+      "31": 4,
+      "32": 11,
+      "33": 11,
+      "34": 3,
+      "35": 3,
+      "36": 3,
+      "37": 2,
+      "38": 2,
+      "39": 7,
+      "40": 7,
+      "41": 7,
+      "42": 6,
+      "43": 6,
+      "44": 6,
+      "45": 6,
+      "46": 6,
+      "47": 1,
+      "48": 7,
+      "49": 20,
+      "50": 20,
+      "51": 20,
+      "52": 3,
+      "53": 2,
+      "54": 3,
+      "55": 20,
+      "56": 21,
+      "57": 21,
+      "58": 17,
+      "59": 4,
+      "60": 4,
+      "61": 1,
+      "62": 3,
+      "63": 3,
+      "64": 1,
+      "65": 2,
+      "66": 3,
+      "67": 3,
+      "68": 58,
+      "69": 58,
+      "70": 58,
+      "71": 1
+    },
+    "b": {
+      "1": [15, 1],
+      "2": [2, 13],
+      "3": [8, 1],
+      "4": [6, 2],
+      "5": [4, 2],
+      "6": [2, 2],
+      "7": [6, 1],
+      "8": [1, 5],
+      "9": [3, 17],
+      "10": [2, 1],
+      "11": [17, 4],
+      "12": [1, 3],
+      "13": [1, 2]
+    },
+    "f": {
+      "1": 3,
+      "2": 1,
+      "3": 16,
+      "4": 9,
+      "5": 11,
+      "6": 3,
+      "7": 7,
+      "8": 20,
+      "9": 21,
+      "10": 58,
+      "11": 1
+    },
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 56,
+        "loc": {"start": {"line": 45, "column": 2}, "end": {"line": 62, "column": 2}}
+      },
+      "2": {
+        "name": "initialize",
+        "line": 67,
+        "loc": {"start": {"line": 67, "column": 2}, "end": {"line": 72, "column": 2}}
+      },
+      "3": {
+        "name": "stake",
+        "line": 74,
+        "loc": {"start": {"line": 74, "column": 2}, "end": {"line": 95, "column": 2}}
+      },
+      "4": {
+        "name": "redeem",
+        "line": 102,
+        "loc": {"start": {"line": 102, "column": 2}, "end": {"line": 129, "column": 2}}
+      },
+      "5": {
+        "name": "cooldown",
+        "line": 134,
+        "loc": {"start": {"line": 134, "column": 2}, "end": {"line": 139, "column": 2}}
+      },
+      "6": {
+        "name": "claimRewards",
+        "line": 146,
+        "loc": {"start": {"line": 146, "column": 2}, "end": {"line": 159, "column": 2}}
+      },
+      "7": {
+        "name": "_transfer",
+        "line": 167,
+        "loc": {"start": {"line": 167, "column": 2}, "end": {"line": 190, "column": 2}}
+      },
+      "8": {
+        "name": "_updateCurrentUnclaimedRewards",
+        "line": 199,
+        "loc": {"start": {"line": 199, "column": 2}, "end": {"line": 220, "column": 2}}
+      },
+      "9": {
+        "name": "getNextCooldownTimestamp",
+        "line": 236,
+        "loc": {"start": {"line": 236, "column": 2}, "end": {"line": 270, "column": 2}}
+      },
+      "10": {
+        "name": "getTotalRewardsBalance",
+        "line": 277,
+        "loc": {"start": {"line": 277, "column": 2}, "end": {"line": 287, "column": 2}}
+      },
+      "11": {
+        "name": "getRevision",
+        "line": 293,
+        "loc": {"start": {"line": 293, "column": 2}, "end": {"line": 295, "column": 2}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 57, "column": 4}, "end": {"line": 57, "column": 29}},
+      "2": {"start": {"line": 58, "column": 4}, "end": {"line": 58, "column": 29}},
+      "3": {"start": {"line": 59, "column": 4}, "end": {"line": 59, "column": 37}},
+      "4": {"start": {"line": 60, "column": 4}, "end": {"line": 60, "column": 33}},
+      "5": {"start": {"line": 61, "column": 4}, "end": {"line": 61, "column": 31}},
+      "6": {"start": {"line": 68, "column": 4}, "end": {"line": 68, "column": 17}},
+      "7": {"start": {"line": 69, "column": 4}, "end": {"line": 69, "column": 21}},
+      "8": {"start": {"line": 70, "column": 4}, "end": {"line": 70, "column": 25}},
+      "9": {"start": {"line": 71, "column": 4}, "end": {"line": 71, "column": 37}},
+      "10": {"start": {"line": 75, "column": 4}, "end": {"line": 75, "column": 46}},
+      "11": {"start": {"line": 76, "column": 4}, "end": {"line": 76, "column": 49}},
+      "12": {"start": {"line": 78, "column": 4}, "end": {"line": 78, "column": 2837}},
+      "13": {"start": {"line": 84, "column": 4}, "end": {"line": 84, "column": 2978}},
+      "14": {"start": {"line": 85, "column": 6}, "end": {"line": 85, "column": 53}},
+      "15": {"start": {"line": 86, "column": 6}, "end": {"line": 86, "column": 92}},
+      "16": {"start": {"line": 89, "column": 4}, "end": {"line": 89, "column": 96}},
+      "17": {"start": {"line": 91, "column": 4}, "end": {"line": 91, "column": 28}},
+      "18": {"start": {"line": 92, "column": 4}, "end": {"line": 92, "column": 75}},
+      "19": {"start": {"line": 94, "column": 4}, "end": {"line": 94, "column": 47}},
+      "20": {"start": {"line": 103, "column": 4}, "end": {"line": 103, "column": 46}},
+      "21": {"start": {"line": 105, "column": 4}, "end": {"line": 105, "column": 65}},
+      "22": {"start": {"line": 106, "column": 4}, "end": {"line": 106, "column": 3786}},
+      "23": {"start": {"line": 110, "column": 4}, "end": {"line": 110, "column": 3906}},
+      "24": {"start": {"line": 114, "column": 4}, "end": {"line": 114, "column": 58}},
+      "25": {"start": {"line": 116, "column": 4}, "end": {"line": 116, "column": 96}},
+      "26": {"start": {"line": 118, "column": 4}, "end": {"line": 118, "column": 75}},
+      "27": {"start": {"line": 120, "column": 4}, "end": {"line": 120, "column": 36}},
+      "28": {"start": {"line": 122, "column": 4}, "end": {"line": 122, "column": 4328}},
+      "29": {"start": {"line": 123, "column": 6}, "end": {"line": 123, "column": 37}},
+      "30": {"start": {"line": 126, "column": 4}, "end": {"line": 126, "column": 56}},
+      "31": {"start": {"line": 128, "column": 4}, "end": {"line": 128, "column": 47}},
+      "32": {"start": {"line": 136, "column": 4}, "end": {"line": 136, "column": 49}},
+      "33": {"start": {"line": 138, "column": 4}, "end": {"line": 138, "column": 29}},
+      "34": {"start": {"line": 147, "column": 4}, "end": {"line": 147, "column": 4998}},
+      "35": {"start": {"line": 152, "column": 4}, "end": {"line": 152, "column": 84}},
+      "36": {"start": {"line": 154, "column": 4}, "end": {"line": 154, "column": 90}},
+      "37": {"start": {"line": 156, "column": 4}, "end": {"line": 156, "column": 66}},
+      "38": {"start": {"line": 158, "column": 4}, "end": {"line": 158, "column": 54}},
+      "39": {"start": {"line": 172, "column": 4}, "end": {"line": 172, "column": 43}},
+      "40": {"start": {"line": 174, "column": 4}, "end": {"line": 174, "column": 60}},
+      "41": {"start": {"line": 177, "column": 4}, "end": {"line": 177, "column": 5873}},
+      "42": {"start": {"line": 178, "column": 6}, "end": {"line": 178, "column": 41}},
+      "43": {"start": {"line": 179, "column": 6}, "end": {"line": 179, "column": 58}},
+      "44": {"start": {"line": 181, "column": 6}, "end": {"line": 181, "column": 61}},
+      "45": {"start": {"line": 182, "column": 6}, "end": {"line": 182, "column": 101}},
+      "46": {"start": {"line": 184, "column": 6}, "end": {"line": 184, "column": 6261}},
+      "47": {"start": {"line": 185, "column": 8}, "end": {"line": 185, "column": 33}},
+      "48": {"start": {"line": 189, "column": 4}, "end": {"line": 189, "column": 36}},
+      "49": {"start": {"line": 204, "column": 4}, "end": {"line": 204, "column": 6905}},
+      "50": {"start": {"line": 210, "column": 4}, "end": {"line": 210, "column": 77}},
+      "51": {"start": {"line": 212, "column": 4}, "end": {"line": 212, "column": 7118}},
+      "52": {"start": {"line": 213, "column": 6}, "end": {"line": 213, "column": 7153}},
+      "53": {"start": {"line": 214, "column": 8}, "end": {"line": 214, "column": 52}},
+      "54": {"start": {"line": 216, "column": 6}, "end": {"line": 216, "column": 47}},
+      "55": {"start": {"line": 219, "column": 4}, "end": {"line": 219, "column": 27}},
+      "56": {"start": {"line": 242, "column": 4}, "end": {"line": 242, "column": 61}},
+      "57": {"start": {"line": 243, "column": 4}, "end": {"line": 243, "column": 8357}},
+      "58": {"start": {"line": 244, "column": 6}, "end": {"line": 244, "column": 14}},
+      "59": {"start": {"line": 247, "column": 4}, "end": {"line": 247, "column": 8417}},
+      "60": {"start": {"line": 251, "column": 4}, "end": {"line": 251, "column": 8532}},
+      "61": {"start": {"line": 252, "column": 6}, "end": {"line": 252, "column": 28}},
+      "62": {"start": {"line": 254, "column": 6}, "end": {"line": 254, "column": 8668}},
+      "63": {"start": {"line": 258, "column": 6}, "end": {"line": 258, "column": 8797}},
+      "64": {"start": {"line": 259, "column": 8}, "end": {"line": 259, "column": 34}},
+      "65": {"start": {"line": 261, "column": 8}, "end": {"line": 261, "column": 8946}},
+      "66": {"start": {"line": 267, "column": 4}, "end": {"line": 267, "column": 52}},
+      "67": {"start": {"line": 269, "column": 4}, "end": {"line": 269, "column": 30}},
+      "68": {"start": {"line": 279, "column": 6}, "end": {"line": 279, "column": 9462}},
+      "69": {"start": {"line": 281, "column": 4}, "end": {"line": 281, "column": 9531}},
+      "70": {"start": {"line": 286, "column": 4}, "end": {"line": 286, "column": 90}},
+      "71": {"start": {"line": 294, "column": 4}, "end": {"line": 294, "column": 19}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 75,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 75, "column": 4}, "end": {"line": 75, "column": 4}},
+          {"start": {"line": 75, "column": 4}, "end": {"line": 75, "column": 4}}
+        ]
+      },
+      "2": {
+        "line": 84,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 84, "column": 4}, "end": {"line": 84, "column": 4}},
+          {"start": {"line": 84, "column": 4}, "end": {"line": 84, "column": 4}}
+        ]
+      },
+      "3": {
+        "line": 103,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 103, "column": 4}, "end": {"line": 103, "column": 4}},
+          {"start": {"line": 103, "column": 4}, "end": {"line": 103, "column": 4}}
+        ]
+      },
+      "4": {
+        "line": 106,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 106, "column": 4}, "end": {"line": 106, "column": 4}},
+          {"start": {"line": 106, "column": 4}, "end": {"line": 106, "column": 4}}
+        ]
+      },
+      "5": {
+        "line": 110,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 110, "column": 4}, "end": {"line": 110, "column": 4}},
+          {"start": {"line": 110, "column": 4}, "end": {"line": 110, "column": 4}}
+        ]
+      },
+      "6": {
+        "line": 122,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 122, "column": 4}, "end": {"line": 122, "column": 4}},
+          {"start": {"line": 122, "column": 4}, "end": {"line": 122, "column": 4}}
+        ]
+      },
+      "7": {
+        "line": 177,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 177, "column": 4}, "end": {"line": 177, "column": 4}},
+          {"start": {"line": 177, "column": 4}, "end": {"line": 177, "column": 4}}
+        ]
+      },
+      "8": {
+        "line": 184,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 184, "column": 6}, "end": {"line": 184, "column": 6}},
+          {"start": {"line": 184, "column": 6}, "end": {"line": 184, "column": 6}}
+        ]
+      },
+      "9": {
+        "line": 212,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 212, "column": 4}, "end": {"line": 212, "column": 4}},
+          {"start": {"line": 212, "column": 4}, "end": {"line": 212, "column": 4}}
+        ]
+      },
+      "10": {
+        "line": 213,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 213, "column": 6}, "end": {"line": 213, "column": 6}},
+          {"start": {"line": 213, "column": 6}, "end": {"line": 213, "column": 6}}
+        ]
+      },
+      "11": {
+        "line": 243,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 243, "column": 4}, "end": {"line": 243, "column": 4}},
+          {"start": {"line": 243, "column": 4}, "end": {"line": 243, "column": 4}}
+        ]
+      },
+      "12": {
+        "line": 251,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 251, "column": 4}, "end": {"line": 251, "column": 4}},
+          {"start": {"line": 251, "column": 4}, "end": {"line": 251, "column": 4}}
+        ]
+      },
+      "13": {
+        "line": 258,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 258, "column": 6}, "end": {"line": 258, "column": 6}},
+          {"start": {"line": 258, "column": 6}, "end": {"line": 258, "column": 6}}
+        ]
+      }
+    }
+  },
+  "contracts/utils/MintableErc20.sol": {
+    "l": {"23": 7, "24": 7},
+    "path": "/home/andyk/projects/aave-stake/contracts/utils/MintableErc20.sol",
+    "s": {"1": 7, "2": 7},
+    "b": {},
+    "f": {"1": 3, "2": 7},
+    "fnMap": {
+      "1": {
+        "name": "constructor",
+        "line": 15,
+        "loc": {"start": {"line": 11, "column": 4}, "end": {"line": 15, "column": 44}}
+      },
+      "2": {
+        "name": "mint",
+        "line": 22,
+        "loc": {"start": {"line": 22, "column": 4}, "end": {"line": 25, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 23, "column": 8}, "end": {"line": 23, "column": 31}},
+      "2": {"start": {"line": 24, "column": 8}, "end": {"line": 24, "column": 19}}
+    },
+    "branchMap": {}
+  },
+  "contracts/utils/VersionedInitializable.sol": {
+    "l": {"28": 3, "29": 3, "34": 2, "36": 2},
+    "path": "/home/andyk/projects/aave-stake/contracts/utils/VersionedInitializable.sol",
+    "s": {"1": 3, "2": 3, "3": 2},
+    "b": {"1": [2, 1]},
+    "f": {"1": 3},
+    "fnMap": {
+      "1": {
+        "name": "initializer",
+        "line": 27,
+        "loc": {"start": {"line": 27, "column": 4}, "end": {"line": 37, "column": 4}}
+      }
+    },
+    "statementMap": {
+      "1": {"start": {"line": 28, "column": 8}, "end": {"line": 28, "column": 40}},
+      "2": {"start": {"line": 29, "column": 8}, "end": {"line": 29, "column": 1112}},
+      "3": {"start": {"line": 34, "column": 8}, "end": {"line": 34, "column": 41}}
+    },
+    "branchMap": {
+      "1": {
+        "line": 29,
+        "type": "if",
+        "locations": [
+          {"start": {"line": 29, "column": 8}, "end": {"line": 29, "column": 8}},
+          {"start": {"line": 29, "column": 8}, "end": {"line": 29, "column": 8}}
+        ]
+      }
+    }
+  }
+}
