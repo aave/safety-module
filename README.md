@@ -96,8 +96,8 @@ This contract allows to do the following:
 
 The Solidity code in this repository has undergone 2 traditional smart contracts' audits by Consensys Diligence and Certik. The reports are:
 
-- Consensys Diligence
-- Certik
+- [Consensys Diligence]()
+- [Certik](./audits/CertiK_Aave_Staking_audit.pdf)
 
 ## Current Mainnet contracts (25/09/2020)
 
