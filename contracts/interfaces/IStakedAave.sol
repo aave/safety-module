@@ -9,4 +9,6 @@ interface IStakedAave {
   function cooldown() external;
 
   function claimRewards(address to, uint256 amount) external;
+
+  function getTotalRewardsBalance(address staker) external view returns (uint256);
 }
